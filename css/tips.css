@@ -4,3 +4,15 @@ aside {
 	color: lightblue;
 	padding: 1em;
 }
+.tipHeader {
+	height: 100%;
+}
+.tipList {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.tip {
+	font-size: 12px;
+}
