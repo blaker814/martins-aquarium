@@ -525,7 +525,7 @@ const fishCollection = [
         species: "Royal Blue Tang",
         size: "18 cm",
         diet: "crustaceans",
-        harvestLocation: ""
+        harvestLocation: "Pizza Planet"
     },
     {
         givenName: "Archy",
