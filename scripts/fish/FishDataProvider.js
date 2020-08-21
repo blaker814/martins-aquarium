@@ -7,7 +7,7 @@ const fishCollection = [
         },
         givenName: "Bart",
         species: "Sonifis",
-        size: "4 foot, 8 inches",
+        size: 56,
         diet: "crustaceans",
         harvestLocation: "Springfield"
     },
@@ -19,7 +19,7 @@ const fishCollection = [
         },
         givenName: "Homer",
         species: "Popifis",
-        size: "6 foot",
+        size: 60,
         diet: "beer",
         harvestLocation: "Springfield"
     },
@@ -31,7 +31,7 @@ const fishCollection = [
         },
         givenName: "Marge",
         species: "Momifis",
-        size: "6 foot, 1 inch",
+        size: 73,
         diet: "crustaceans",
         harvestLocation: "Springfield"
     },
@@ -43,7 +43,7 @@ const fishCollection = [
         },
         givenName: "Lisa",
         species: "Daughtifis",
-        size: "4 foot, 6 inches",
+        size: 54,
         diet: "crustaceans",
         harvestLocation: "Springfield"
     },
@@ -55,7 +55,7 @@ const fishCollection = [
         },
         givenName: "Maggie",
         species: "Babifis",
-        size: "1 foot, 6 inches",
+        size: 18,
         diet: "crustaceans",
         harvestLocation: "Springfield"
     },
@@ -67,7 +67,7 @@ const fishCollection = [
         },
         givenName: "Lucky Number Seven",
         species: "Dogifis",
-        size: "3 foot, 9 inches",
+        size: 45,
         diet: "crustaceans",
         harvestLocation: "Springfield"
     },
@@ -79,7 +79,7 @@ const fishCollection = [
         },
         givenName: "Moe",
         species: "Friendifis",
-        size: "5 foot, 10 inches",
+        size: 70,
         diet: "crustaceans",
         harvestLocation: "Springfield"
     },
@@ -90,7 +90,7 @@ const fishCollection = [
             alt: "Beautiful Blue Fish"
         },
         givenName: "Steve",
-		size: "5 inches",
+		size: 5,
 		diet: "crustaceans",
 		species: "Clownfish",
 		harvestLocation: "Petco"
@@ -102,7 +102,7 @@ const fishCollection = [
             alt: "Beautiful Blue Fish"
         },
         givenName: "Big Mac",
-		size: "6 feet",
+		size: 72,
 		diet: "jellyfish",
 		species: "Giant sunfish",
 		harvestLocation: "Sam's Club Reef"
@@ -114,7 +114,7 @@ const fishCollection = [
             alt: "Beautiful Blue Fish"
         },
         givenName: "Squigle",
-		size: "2 feet",
+		size: 24,
 		diet: "smaller fish",
 		species: "Moray Eel",
 		harvestLocation: "Ole Dan's boat wreck"
@@ -126,7 +126,7 @@ const fishCollection = [
             alt: "Beautiful Blue Fish"
         },
         givenName: "Hammy",
-		size: "4 feet",
+		size: 48,
 		diet: "just about everything",
 		species: "Groupers",
 		harvestLocation: "Jimmy's big boi fishin' spot"
@@ -138,7 +138,7 @@ const fishCollection = [
             alt: "Beautiful Blue Fish"
         },
         givenName: "Tiny",
-		size: "1 inch",
+		size: 1,
 		diet: "plankton",
 		species: "Blue Chromis",
 		harvestLocation: "Young Dan's boat wreck"
@@ -151,7 +151,7 @@ const fishCollection = [
         },
         species: "Gem Tang",
         givenName: "Diamond",
-        size: "6 cm",
+        size: .5,
         diet: "Algae Strips",
         havestLocation: "South Africa"
     },
@@ -163,7 +163,7 @@ const fishCollection = [
         },
         species: "Black Tang",
         givenName: "Midnight",
-        size: "1 inch",
+        size: 1,
         diet: "Vegetation",
         havestLocation: "Croatia"
     },
@@ -175,7 +175,7 @@ const fishCollection = [
         },
         species: "Crosshatch Triggerfish",
         givenName: "Itchy",
-        size: "7 ft",
+        size: 84,
         diet: "Micronutrients",
         havestLocation: "Blue Hole"
     },
@@ -187,7 +187,7 @@ const fishCollection = [
         },
         species: "Candy Basslet",
         givenName: "Cherry",
-        size: "3 cm",
+        size: .3,
         diet: "Algae",
         havestLocation: "Brazil"
     },
@@ -199,7 +199,7 @@ const fishCollection = [
         },
         species: "Japanese Interruptus Angelfish",
         givenName: "Rainbow",
-        size: "2 ft",
+        size: 24,
         diet: "Fish pellets",
         havestLocation: "South Africa"
     },
@@ -211,7 +211,7 @@ const fishCollection = [
         },
         species: "Clarion Angelfish",
         givenName: "Banana Stripe",
-        size: "11 cm",
+        size: 1,
         diet: "Micronutrients",
         havestLocation: "Antiqua"
     },
@@ -223,7 +223,7 @@ const fishCollection = [
         },
         species: "Wrought Iron Butterfly",
         givenName: "Zebra",
-        size: "10 in",
+        size: 10,
         diet: "Crustaceans",
         havestLocation: "Croatia"
     },
@@ -235,7 +235,7 @@ const fishCollection = [
         },
         species: "Neptune Grouper",
         givenName: "Squigy",
-        size: "1 ft",
+        size: 12,
         diet: "Algae",
         havestLocation: "Bahamas"
     },
@@ -247,7 +247,7 @@ const fishCollection = [
         },
         givenName: "Nemo",
         species: "Clownfish",
-        size: "1.5 inches",
+        size: 1.5,
         diet: "Copepods",
         harvestLocation: "Orlando, FL"
     },
@@ -259,7 +259,7 @@ const fishCollection = [
         },
         givenName: "Torch",
         species: "Flame Angelfish",
-        size: "3 inches",
+        size: 3,
         diet: "Mealworms",
         harvestLocation: "San Jose, CA"
     },
@@ -271,7 +271,7 @@ const fishCollection = [
         },
         givenName: "Rocky",
         species: "Blue Damselfish",
-        size: "2 inches",
+        size: 2,
         diet: "Copepods",
         harvestLocation: "Destin, FL"
     },
@@ -283,7 +283,7 @@ const fishCollection = [
         },
         givenName: "Rudy",
         species: "Copperband Butterflyfish",
-        size: "5 inches",
+        size: 5,
         diet: "Mealworms",
         harvestLocation: "Costa Rica"
     },
@@ -295,7 +295,7 @@ const fishCollection = [
         },
         givenName: "Simba",
         species: "Lionfish",
-        size: "6 inches",
+        size: 6,
         diet: "Mealworms",
         harvestLocation: "Argentina"
     },
@@ -307,7 +307,7 @@ const fishCollection = [
         },
         givenName: "Mr. Freeze",
         species: "Blue Tang",
-        size: "6 inches",
+        size: 6,
         diet: "Mealworms",
         harvestLocation: "Costa Rica"
     },
@@ -319,13 +319,13 @@ const fishCollection = [
         },
         givenName: "Frodo",
         species: "Yellow Tang",
-        size: "4 inches",
+        size: 4,
         diet: "Mealworms",
         harvestLocation: "Honolulu, HI"
     },
     {
         species: "Goldfish",
-        size: "4 inches",
+        size: 4,
         diet: "Fish Food",
         givenName: "Lockes",
         harvestLocation: "Wally World",
@@ -337,7 +337,7 @@ const fishCollection = [
     },
     {
         species: "Rainbow Trout",
-        size: "4 inches",
+        size: 4,
         diet: "Fish Food",
         givenName: "Treant",
         harvestLocation: "Lake Canada",
@@ -349,7 +349,7 @@ const fishCollection = [
     },
     {
         species: "Bluegill",
-        size: "4 inches",
+        size: 4,
         diet: "Fish Food",
         givenName: "Big Blue",
         harvestLocation: "Friend's Place",
@@ -367,7 +367,7 @@ const fishCollection = [
         },
         givenName: "Bart",
         species: "Bartfish",
-        size: "4 inches",
+        size: 4,
         harvestLocation: "Springfield",
         diet: "butterfinger"
     },
@@ -451,7 +451,7 @@ const fishCollection = [
             alt: "Beautiful Rainbow Fish"
         },
         species: "Male Beta",
-        size: "2 inches",
+        size: 2,
         diet: "Flies",
         harvestLocation: "Beaches of Walmart",
     },
@@ -463,7 +463,7 @@ const fishCollection = [
             alt: "Beautiful Rainbow Fish"
         },
         species: "Blob Fish",
-        size: "2 feet",
+        size: 24,
         diet: "Sea Urchins",
         harvestLocation: "Deep Darkness",
     },
@@ -475,7 +475,7 @@ const fishCollection = [
             alt: "Beautiful Rainbow Fish"
         },
         species: "Crazinus Fishifus",
-        size: "5 inches",
+        size: 5,
         diet: "algae",
         harvestLocation: "Beaches of Walmart",
     },
@@ -487,7 +487,7 @@ const fishCollection = [
             alt: "Beautiful Rainbow Fish"
         },
         species: "Male Dopey Fish",
-        size: "22 inches",
+        size: 22,
         diet: "Diet Fish Kibble",
         harvestLocation: "Gerrys Air Balloon and Fish Emporium",
     },
@@ -499,7 +499,7 @@ const fishCollection = [
             alt: "Beautiful Rainbow Fish"
         },
         species: "Who knows?",
-        size: "1 inch",
+        size: 1,
         diet: "Other fish",
         harvestLocation: "Lake",
     },
@@ -511,7 +511,7 @@ const fishCollection = [
             alt: "Beautiful Rainbow Fish"
         },
         species: "Male Clown Fish",
-        size: "2 inches",
+        size: 2,
         diet: "Tears",
         harvestLocation: "P. Sherman, 42 Wallaby Way, Sydney",
     },
@@ -523,7 +523,7 @@ const fishCollection = [
             alt: "Beautiful Rainbow Fish"
         },
         species: "Royal Blue Tang",
-        size: "18 cm",
+        size: 1.2,
         diet: "crustaceans",
         harvestLocation: "Pizza Planet"
     },
@@ -535,7 +535,7 @@ const fishCollection = [
             alt: "Beautiful Rainbow Fish"
         },
         species: "Arc-Eye Hawkfish",
-        size: "20 cm",
+        size: 2,
         diet: "shrimp and other small fishes",
         harvestLocation: "Seaward reefs in the pacific ocean"
     },
@@ -547,7 +547,7 @@ const fishCollection = [
             alt: "Beautiful Rainbow Fish"
         },
         species: "Bartletts' Anthias",
-        size: "9 cm",
+        size: .9,
         diet: "zooplankton",
         harvestLocation: "Coral reef in the western Pacific ocean"
     },
@@ -559,7 +559,7 @@ const fishCollection = [
             alt: "Beautiful Rainbow Fish"
         },
         species: "Axilspot Wrasse",
-        size: "20 cm",
+        size: 2,
         diet: "mollusks",
         harvestLocation: "A clear lagoon"
     },
@@ -571,7 +571,7 @@ const fishCollection = [
             alt: "Beautiful Rainbow Fish"
         },
         species: "Bicolor Angelfish",
-        size: "15 cm",
+        size: 15,
         diet: "coral polyps",
         harvestLocation: "Coral and rubble areas"
     },
@@ -583,7 +583,7 @@ const fishCollection = [
             alt: "Beautiful Rainbow Fish"
         },
         species: "Bignose Unicornfish",
-        size: "55 cm",
+        size: 55,
         diet: "zooplankton",
         harvestLocation: "Deep lagoon"
     },
@@ -595,7 +595,7 @@ const fishCollection = [
         },
         givenName: "Guppi Goldenberg",
         species: "Pleebon Flounder",
-        size: "2 inches",
+        size: 2,
         diet: "Turtle Turds",
         harvestLocation: "Over Yonder"
     },
@@ -607,7 +607,7 @@ const fishCollection = [
         },
         givenName: "Sushi",
         species: "Male Beta",
-        size: "2 inches",
+        size: 2,
         diet: "Flies",
         harvestLocation: "Beaches of Walmart"
     },
@@ -619,7 +619,7 @@ const fishCollection = [
         },
         givenName: "Nemo",
         species: "Clown Fish",
-        size: "3 inches minus one fin",
+        size: 3,
         diet: "Kelp",
         harvestLocation: "42 Wallaby Way, Sydney"
     },
@@ -631,7 +631,7 @@ const fishCollection = [
         },
         givenName: "James Pond",
         species: "Party Fish",
-        size: "69cm",
+        size: 69,
         diet: "Peanut Butter",
         harvestLocation: "Down Under"
     },
@@ -643,7 +643,7 @@ const fishCollection = [
         },
         givenName: "Ann Chovy",
         species: "Dancing Queen",
-        size: "9 feet",
+        size: 108,
         diet: "McChickens",
         harvestLocation: "Sandy Castles Resort"
     },
@@ -655,7 +655,7 @@ const fishCollection = [
         },
         givenName: "Phish Styx",
         species: "Gillfunkle",
-        size: "3 big toes",
+        size: 9,
         diet: "school fish",
         harvestLocation: "Navy Pier"
     }
@@ -663,4 +663,34 @@ const fishCollection = [
 
 export const useFish = () => {
     return fishCollection.slice()
+}
+
+export const mostHolyFish = () => {
+    const holyFishes = [];
+    for (const fish of fishCollection) {
+        if (fish.size % 3 === 0) {
+            holyFishes.push(fish);
+        }
+    }  
+    return holyFishes;  
+}
+
+export const mostSoldierFish = () => {
+    const soldierFishes = [];
+    for (const fish of fishCollection) {
+        if (fish.size % 3 !== 0 && fish.size % 5 === 0) {
+            soldierFishes.push(fish);
+        }
+    }  
+    return soldierFishes;
+}
+
+export const mostUnworthyFish = () => {
+    const unworthyFishes = [];
+    for (const fish of fishCollection) {
+        if (fish.size % 3 !== 0 && fish.size % 5 !== 0) {
+            unworthyFishes.push(fish);
+        }
+    }    
+    return unworthyFishes;
 }

@@ -1,4 +1,4 @@
-import { useFish } from './fish/FishDataProvider.js'
+import { useFish, mostHolyFish, mostSoldierFish, mostUnworthyFish } from './fish/FishDataProvider.js'
 import { FishList } from './fish/FishList.js'
 import { inputTips } from './tips/TipDataProvider.js';
 import { TipList } from './tips/TipList.js';
@@ -28,3 +28,7 @@ for (const loc of allThePlaces) {
 }
 
 LocationList();
+
+// mostHolyFish();
+// mostSoldierFish();
+// mostUnworthyFish();
