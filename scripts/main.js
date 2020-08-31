@@ -1,4 +1,4 @@
-import { useFish, mostHolyFish, mostSoldierFish, mostUnworthyFish } from './fish/FishDataProvider.js'
+import { useFish } from './fish/FishDataProvider.js'
 import { FishList } from './fish/FishList.js'
 import { inputTips } from './tips/TipDataProvider.js';
 import { TipList } from './tips/TipList.js';
@@ -6,29 +6,13 @@ import { nameLocation } from './locations/LocationDataProvider.js';
 import { LocationList } from './locations/LocationList.js';
 
 const allTheFish = useFish()
-
-for (const fish of allTheFish) {
-    console.log(fish)
-}
-
+allTheFish.map(fish => console.log(fish))
 FishList();
 
 const allTheTips = inputTips()
-
-for (const tip of allTheTips) {
-    console.log(tip)
-}
-
+allTheTips.map(tip => console.log(tip))
 TipList();
 
 const allThePlaces = nameLocation()
-
-for (const loc of allThePlaces) {
-    console.log(loc)
-}
-
+allThePlaces.map(place => console.log(place))
 LocationList();
-
-// mostHolyFish();
-// mostSoldierFish();
-// mostUnworthyFish();

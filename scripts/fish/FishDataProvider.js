@@ -153,7 +153,7 @@ const fishCollection = [
         givenName: "Diamond",
         size: .5,
         diet: "Algae Strips",
-        havestLocation: "South Africa"
+        harvestLocation: "South Africa"
     },
     {
         image: {
@@ -165,7 +165,7 @@ const fishCollection = [
         givenName: "Midnight",
         size: 1,
         diet: "Vegetation",
-        havestLocation: "Croatia"
+        harvestLocation: "Croatia"
     },
     {
         image: {
@@ -177,7 +177,7 @@ const fishCollection = [
         givenName: "Itchy",
         size: 84,
         diet: "Micronutrients",
-        havestLocation: "Blue Hole"
+        harvestLocation: "Blue Hole"
     },
     {
         image: {
@@ -189,7 +189,7 @@ const fishCollection = [
         givenName: "Cherry",
         size: .3,
         diet: "Algae",
-        havestLocation: "Brazil"
+        harvestLocation: "Brazil"
     },
     {
         image: {
@@ -201,7 +201,7 @@ const fishCollection = [
         givenName: "Rainbow",
         size: 24,
         diet: "Fish pellets",
-        havestLocation: "South Africa"
+        harvestLocation: "South Africa"
     },
     {
         image: {
@@ -213,7 +213,7 @@ const fishCollection = [
         givenName: "Banana Stripe",
         size: 1,
         diet: "Micronutrients",
-        havestLocation: "Antiqua"
+        harvestLocation: "Antiqua"
     },
     {
         image: {
@@ -225,7 +225,7 @@ const fishCollection = [
         givenName: "Zebra",
         size: 10,
         diet: "Crustaceans",
-        havestLocation: "Croatia"
+        harvestLocation: "Croatia"
     },
     {
         image: {
@@ -237,7 +237,7 @@ const fishCollection = [
         givenName: "Squigy",
         size: 12,
         diet: "Algae",
-        havestLocation: "Bahamas"
+        harvestLocation: "Bahamas"
     },
     {
         image: {
